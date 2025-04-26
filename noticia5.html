@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jornal Online</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        
+        header {
+            background-color: #0077cc;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        main {
+            padding: 20px;
+        }
+        
+        .noticias {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        
+        article {
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        
+        article h2 {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+        }
+        
+        article p {
+            font-size: 0.95rem;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        article a {
+            text-decoration: none;
+            color: #0077cc;
+            font-weight: bold;
+        }
+        
+        article a:hover {
+            text-decoration: underline;
+        }
+        
+        footer {
+            background-color: #0077cc;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+        
+        .article-com-imagem img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Jornal Online</h1>
+    </header>
+    <main>
+        <section class="noticias">
+            <!-- Artigo sobre a alta do café -->
+            <article>
+                <h2><a href="noticia7.html">Alta histórica no preço do café provoca incertezas no mercado</a></h2>
+                <img src="Nova pasta/5.jpeg" alt="Grãos de café em sacos">
+                <p>O café arábica atingiu esta semana o maior valor em cinco anos na Bolsa de Nova York, ronda dos US$ 2,40 por libra-peso. A alta, acima de 25% em doze meses, reflete uma combinação de fatores que vem pressionando o mercado global.</p>
+                <p>Produtos agrícolas em geral sofrem com condições climáticas adversas, e o café não ficou de fora. No Brasil, principais produtor da bebida, geadas recentes em Minas Gerais e no Cerrado afetaram a produção, reduzindo a oferta estimada para
+                    a próxima safra.</p>
+                <p>Além dos impactos do clima, a valorização do dólar em relação ao real estimulou compradores internacionais a adquirir estoques ainda disponíveis no Brasil, pressionando os preços locais. Exportadores registram esgotamento de lotes antes
+                    mesmo do período tradicional de colheita.</p>
+                <p>A demanda continua aquecida, especialmente nos Estados Unidos e na China, onde o consumo de café gourmet e as cafeterias especiais registram crescimento expressivo. O setor estima que o volume importado em 2025 supere em 10% o total atrasado.</p>
+                <p>Analistas de commodities destacam que os estoques globais se mantêm em níveis historicamente baixos, o que tende a ampliar a volatilidade dos preços. Fundos de investimento também entraram em peso no mercado futuro, alimentando a especulação.</p>
+                <p>Para o produtor brasileiro, a alta traz alívio financeiro, mas também gera custos adicionais de insumos importados, como fertilizantes e máquinas. No varejo, o consumidor sente o aumento: o preço médio do café em supermercado subiu cerca
+                    de 15% nos últimos três meses.</p>
+                <p>O Ministério da Agricultura anunciou medidas emergenciais, como redução temporária de impostos sobre o grão e linhas de crédito específicas para pequenos e médios produtores. No entanto, especialistas afirmam que políticas de longo prazo
+                    são essenciais para estabilizar o setor.</p>
+                <p>Cooperativas e associações rurais orientam produtores a investir em técnicas de irrigação eficientes e na diversificação de cultivares mais resistentes a variações de clima. “É fundamental preparar o solo e a plantação para as mudanças
+                    climáticas”, reforça engenheira agrônoma.</p>
+                <p>Embora o momento seja de desafios, o café segue como carro-chefe da economia brasileira, representando mais de 30% das exportações agrícolas. O mercado observa agora se a safra de meio de ano trará algum alívio ou se a tendência de alta
+                    continuará nos próximos meses.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Jornal Online. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+</html>

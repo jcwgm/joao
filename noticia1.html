@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jornal Online</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        
+        header {
+            background-color: #0077cc;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        main {
+            padding: 20px;
+        }
+        
+        .noticias {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        article {
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        article h2 {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+        }
+        
+        article a {
+            text-decoration: none;
+            color: #0077cc;
+            font-weight: bold;
+        }
+        
+        article a:hover {
+            text-decoration: underline;
+        }
+        
+        .article-com-imagem {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            align-items: flex-start;
+        }
+        
+        .article-com-imagem img {
+            width: 40%;
+            height: auto;
+            border-radius: 4px;
+            object-fit: cover;
+        }
+        
+        .texto {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            flex: 1;
+        }
+        
+        .texto p {
+            font-size: 1rem;
+            color: #333;
+            margin: 0;
+        }
+        
+        footer {
+            background-color: #0077cc;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Jornal Online</h1>
+    </header>
+
+    <main>
+        <section class="noticias">
+            <article>
+                <h2>
+                    <a href="noticia1.html">Três derrotas deixam Cruzeiro em situação difícil na Sul-Americana</a>
+                </h2>
+                <div class="article-com-imagem">
+                    <img src="Nova pasta/072a3c80d679ff376b992bf6bce1dec1.jpeg" alt="Jogadores do Cruzeiro em campo" />
+                    <div class="texto">
+                        <p>
+                            A derrota do Cruzeiro para o Palestino, na última quinta-feira, complicou a vida do time mineiro na Copa Sul-Americana. Segundo os cálculos da UFMG, o Cabuloso tem 4,9% de chance de avançar ao mata-mata.
+                        </p>
+                        <p>
+                            A chance do Cruzeiro terminar em primeiro é de apenas 0,26%, com 4,6% de chance de ficar em segundo lugar no grupo. O time está na lanterna com três derrotas.
+                        </p>
+
+                        <P>
+                            O Muschu Runa, do Equador, é o líder com nove pontos, enquanto o Palestino ocupa a segunda colocação, com seis. Para se classificar, o Cruzeiro precisa vencer os três jogos restantes — dois no Mineirão e um fora de casa —, tirar a desvantagem no saldo
+                            de gols e contar com tropeços dos adversários.
+                        </P>
+                        <P>
+                            pós o tropeço na Sul-Americana, o Cruzeiro volta a focar no Campeonato Brasileiro, onde recebe o Vasco, pela sexta rodada da competição, no próximo domingo, às 18h30 (de Brasília), em Uberlândia. O time de Leonardo Jardim só volta a atuar no torneio internacional
+                            no dia 7 de maio, diante do Mushuc Runa, no Equador.
+                        </P>
+                    </div>
+
+                </div>
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>
